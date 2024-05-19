@@ -38,4 +38,8 @@ public class CarService {
 //    public void deleteCar(Long carId) {
 //         carRepository.deleteById(carId);
 //    }
+
+    public void deleteCars(){
+        carRepository.deleteAll();
+    }
 }

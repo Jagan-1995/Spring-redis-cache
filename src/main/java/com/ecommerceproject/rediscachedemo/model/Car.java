@@ -14,7 +14,7 @@ import java.io.Serializable;
 @Entity
 @Getter
 @Setter
-
+@Data
 public class Car implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

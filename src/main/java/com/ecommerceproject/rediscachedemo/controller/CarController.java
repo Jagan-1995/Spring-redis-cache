@@ -55,4 +55,9 @@ public class CarController {
 //        carService.deleteCar(carId);
 //        return c;
 //    }
+
+    @DeleteMapping("/all")
+    public void deleteAllCars(){
+        carService.deleteCars();
+    }
 }
